@@ -1,5 +1,6 @@
 Watched How to Install and Configure Git and GitHub on Windows by 
 ProgrammingKnowledge2 on 04/20/2019
+updated on 21/05/2019
 
 URL:
 https://www.youtube.com/watch?v=J_Clau1bYco&t=129s
@@ -8,14 +9,17 @@ Easy Git Commands
 
 Set Up Git:
 git config --global user.name "Your Name"
-git config --global user.email "youremail@domain.com"
+git config --global user.email youremail@domain.com
 
 other commands
-git clone (url)
-git add (file names)
-git commit -m "(committed message)
-git push -u origin master
-git remote add origin master (url)
+1) git clone (url) // this is where you clone/copy the source code from the repo in the link
+2) cd (repo-name) // you need to do this to add/update 
+
+3) git add (file names) // say which files you hava either added or updated
+4) git commit -m "(committed message) // a revison or adding changes to the local repo
+5) git push -u origin master // transfer last commit to a remote server
+6) git remote add origin master (url)
+
 
 Check out more at:
 http://www.codebind.com/linux-tutorials/basic-git-commands-list/
